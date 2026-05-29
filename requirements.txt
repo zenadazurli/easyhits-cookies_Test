@@ -1,9 +1,2 @@
-services:
-  - type: cron
-    name: easyhits-cookies
-    schedule: "*/5 * * * *"
-    buildCommand: pip install -r requirements.txt
-    runCommand: python cookies.py
-    envVars:
-      - key: BROWSER_USE_API_KEY
-        value: bu_MN6wlSbFKdRNKvxB349PKTYLjrHGjXGEt3DHrT91cD0
+browser-use
+playwright
