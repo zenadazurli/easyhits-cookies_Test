@@ -3,7 +3,7 @@ import time
 import re
 import os
 
-API_KEY = os.environ.get("BROWSER_USE_API_KEY", "bu_MN6wlSbFKdRNKvxB349PKTYLjrHGjXGEt3DHrT91cD0")
+API_KEY = os.environ.get("BROWSER_USE_API_KEY", "bu_St6-JPLOEUMFx0wGvMsPlCvoAlkDmIbwl8bRpiPlycw")
 EMAIL = "sandrominori50+ulugarecexisa@gmail.com"
 PASSWORD = "DDnmVV45!!"
 
@@ -35,9 +35,9 @@ time.sleep(1)
 # 3. Login
 run_cmd('browser-use keys "Enter"')
 
-# 4. === ASPETTA CHE LA DASHBOARD SI CARICHI ===
+# 4. Attendi dashboard
 print("⏳ Attesa caricamento dashboard (15 secondi)...")
-time.sleep(15)  # <-- LA CHIAVE!
+time.sleep(15)
 
 # 5. Cookie
 result = run_cmd("browser-use cookies get", capture=True)
